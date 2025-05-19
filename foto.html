@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foto's van Maria</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1em;
+      padding: 1em;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    a.back {
+      display: block;
+      margin: 1em auto;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>📸 Foto's van Maria</h1>
+
+  <div class="gallery">
+    <img src="media/maria1.jpg" alt="Maria 1">
+    <img src="media/maria2.jpg" alt="Maria 2">
+    <img src="media/maria3.jpg" alt="Maria 3">
+    <img src="media/maria4.jpg" alt="Maria 4">
+    <img src="media/maria5.jpg" alt="Maria 5">
+    <img src="media/maria6.jpg" alt="Maria 6">
+    <img src="media/maria7.jpg" alt="Maria 7">
+    <img src="media/maria8.jpg" alt="Maria 8">
+    <img src="media/maria9.jpg" alt="Maria 9">
+    <img src="media/maria10.jpg" alt="Maria 10">
+  </div>
+
+  <a href="index.html" class="back">⬅️ Terug naar home</a>
+</body>
+</html>
